@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    position: fixed;
+    background-color: rgb(65, 183, 183);
+    height: 85px;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-bar .logo {
+    position: relative;
+    padding-right: 200px;
+    padding-top: 10px;
+}
+
+.nav-bar .logo .h1 {
+    position: absolute;
+    white-space: pre-line;
+    padding-right: 60px;
+    font-size: large;
+    color: #fff;
+}
+
+.nav-bar .logo .h1 span {
+    color: black;
+}
+
+.nav-bar .logo img {
+    float: right;
+}
+
+.nav-bar ul li .base {
+    color: black;
+    background-color: rgba(255, 255, 0, 0.671);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 0, 0.671);
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.nav-bar ul li .base:hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid rgba(255, 255, 0, 0.671);
+}
+
+.nav-bar ul {
+    padding-left: 200px;
+    margin-top: -40px;
+}
+
+.nav-bar ul li {
+    float: left;
+    padding-left: 20px;
+    list-style: none;
+    padding-top: 30px;
+}
+
+.nav-bar ul li a:hover{
+    color: black;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    padding-left: 10px;
+}
+
+.section-1 {
+    background-image: url(../imges/2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.section-1 .d1 {
+    float: right;
+    white-space: pre-line;
+    padding-top: 200px;
+    padding-right: 200px;
+    position: absolute;
+    color: #fff;
+}
+
+.section-1 .d1 a {
+    color: none;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.section-1 .d1 a:hover {
+    border: 2px solid yellow;
+    background-color: #fff;
+    color: black;
+}
+
+.section-2 .boxes {
+    margin: 70px 275px;
+}
+
+.section-2 .boxes .box-1,
+.section-2 .boxes .box-2,
+.section-2 .boxes .box-3,
+.section-2 .boxes .box-4 {
+    width: 220px;
+    height: 300px;
+    display: inline-block;
+    padding-top: 70px;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.section-2 .boxes .box-1 h1,
+.section-2 .boxes .box-1 img,
+.section-2 .boxes .box-1 p,
+.section-2 .boxes .box-2 h1,
+.section-2 .boxes .box-2 img,
+.section-2 .boxes .box-2 p,
+.section-2 .boxes .box-3 h1,
+.section-2 .boxes .box-3 img,
+.section-2 .boxes .box-3 p,
+.section-2 .boxes .box-4 h1,
+.section-2 .boxes .box-4 img,
+.section-2 .boxes .box-4 p {
+    padding: 0px 20px;
+}
+
+.section-2 .boxes .box-1 {
+    border: 1px solid yellowgreen;
+    background-color: yellowgreen;
+}
+
+.section-2 .boxes .box-2 {
+    border: 1px solid orangered;
+    background-color: orangered;
+}
+
+.section-2 .boxes .box-3 {
+    border: 1px solid rgb(65, 183, 183);
+    background-color: rgb(65, 183, 183);
+}
+
+.section-2 .boxes .box-4 {
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+.section-3 {
+    background-color: #ccc;
+    width: 100%;
+    height: 700px;
+}
+
+.section-3 .h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.section-3 .p {
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(65, 183, 183);
+}
+
+.section-3 .box {
+    margin-top: 20px;
+    padding: 50px 275px;
+    overflow: hidden;
+}
+
+.section-3 .box .box-1,
+.section-3 .box .box-2,
+.section-3 .box .box-3 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 15px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    transition: 1s;
+}
+
+.section-3 .box .box-1 .img-1,
+.section-3 .box .box-2 .img-2,
+.section-3 .box .box-3 .img-3 {
+    position: relative;
+}
+
+.section-3 .box .box-1 .img-1 .p1,
+.section-3 .box .box-2 .img-2 .p1,
+.section-3 .box .box-3 .img-3 .p1 {
+    top: 5px;
+    left: 10px;
+    right: auto;
+    position: absolute;
+    background-color: yellowgreen;
+    border: 1px solid yellowgreen;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.section-3 .box .box-1 .time,
+.section-3 .box .box-1 .clock,
+.section-3 .box .box-2 .time,
+.section-3 .box .box-2 .clock,
+.section-3 .box .box-3 .time,
+.section-3 .box .box-3 .clock {
+    float: right;
+}
+
+.section-3 .box .box-1 h1,
+.section-3 .box .box-2 h1,
+.section-3 .box .box-3 h1 {
+    font-size: x-large;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+.section-3 .box .box-1 .p2,
+.section-3 .box .box-2 .p2,
+.section-3 .box .box-3 .p2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+.section-3 .box .box-1 a,
+.section-3 .box .box-2 a,
+.section-3 .box .box-3 a {
+    color: black;
+    text-decoration: none;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.section-3 .box .box-1 a:hover,
+.section-3 .box .box-2 a:hover,
+.section-3 .box .box-3 a:hover {
+    color: yellowgreen;
+    background-color: #fff;
+    border: 1px solid yellowgreen;
+}
+
+.section-4 {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.section-4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imges/اطفال\ مدرسة.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.section-4::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 128, 0, 0.3);
+}
+
+.section-4 .title,
+.section-4 .info {
+    position: relative;
+    z-index: 2;
+}
+
+.section-4 .title h1,
+.section-4 .title p {
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.section-4 .info .info-1,
+.section-4 .info .info-2,
+.section-4 .info .info-3,
+.section-4 .info .info-4 {
+    float: right;
+    margin: 50px 50px;
+    padding-right: 150px;
+}
+
+.section-5 {
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+}
+
+.section-5 .h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-5 .p {
+    margin-top: 10px;
+    text-align: center;
+    color: aqua;
+}
+
+.section-5 .box-1,
+.section-5 .box-2 {
+    float: right;
+    margin: 50px;
+    padding-right: 40px;
+}
+
+.section-5 .box-1 .box-11 div,
+.section-5 .box-1 .box-12 div,
+.section-5 .box-2 .box-21 div,
+.section-5 .box-2 .box-22 div {
+    background-color: #eee;
+    margin-right: 90px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    padding-bottom: 40px;
+}
+
+.section-5 .box-1 .box-12 div,
+.section-5 .box-2 .box-22 div {
+    margin-top: 20px;
+}
+
+.section-5 .box-1 .box-11 img,
+.section-5 .box-1 .box-12 img,
+.section-5 .box-2 .box-21 img,
+.section-5 .box-2 .box-22 img {
+    float: right;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.section-5 .box-1 .box-11 h1,
+.section-5 .box-1 .box-12 h1,
+.section-5 .box-2 .box-21 h1,
+.section-5 .box-2 .box-22 h1 {
+    font-size: large;
+    padding: 10px 0px;
+}
+
+.section-5 .box-1 .box-11 .clock,
+.section-5 .box-1 .box-11 .data,
+.section-5 .box-1 .box-11 .logo-location,
+.section-5 .box-1 .box-11 .location,
+.section-5 .box-1 .box-11 .logo-more,
+.section-5 .box-1 .box-11 .more,
+.section-5 .box-1 .box-12 .clock,
+.section-5 .box-1 .box-12 .data,
+.section-5 .box-1 .box-12 .logo-location,
+.section-5 .box-1 .box-12 .location,
+.section-5 .box-1 .box-12 .logo-more,
+.section-5 .box-1 .box-12 .more,
+.section-5 .box-2 .box-21 .clock,
+.section-5 .box-2 .box-21 .data,
+.section-5 .box-2 .box-21 .logo-location,
+.section-5 .box-2 .box-21 .location,
+.section-5 .box-2 .box-21 .logo-more,
+.section-5 .box-2 .box-21 .more,
+.section-5 .box-2 .box-22 .clock,
+.section-5 .box-2 .box-22 .data,
+.section-5 .box-2 .box-22 .logo-location,
+.section-5 .box-2 .box-22 .location,
+.section-5 .box-2 .box-22 .logo-more,
+.section-5 .box-2 .box-22 .more {
+    float: right;
+    padding-top: 10px;
+}
+
+.section-5 .box-1 .box-11 .clock,
+.section-5 .box-1 .box-11 .logo-location,
+.section-5 .box-1 .box-11 .logo-more,
+.section-5 .box-1 .box-12 .clock,
+.section-5 .box-1 .box-12 .logo-location,
+.section-5 .box-1 .box-12 .logo-more,
+.section-5 .box-2 .box-21 .clock,
+.section-5 .box-2 .box-21 .logo-location,
+.section-5 .box-2 .box-21 .logo-more,
+.section-5 .box-2 .box-22 .clock,
+.section-5 .box-2 .box-22 .logo-location,
+.section-5 .box-2 .box-22 .logo-more {
+    width: 15px;
+    height: 15px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.section-6 {
+    width: 100%;
+    height: 500px;
+    background-color: #ccc;
+}
+
+.section-6 .main .img-1 {
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin: 100px;
+    border-radius: 20px;
+}
+
+.section-6 .main .box .box-1,
+.section-6 .main .box .box-2 {
+    float: right;
+    margin-top: 100px;
+    width: 250px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.section-6 .main .box .box-1 .title {
+    padding-top: 20px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.section-6 .main .box .box-1 .contant {
+    padding: 25px;
+}
+
+.section-6 .main .box .box-1 .contant .location,
+.section-6 .main .box .box-1 .contant .number,
+.section-6 .main .box .box-1 .contant .email,
+.section-6 .main .box .box-1 .contant .web {
+    padding-bottom: 20px;
+}
+
+.section-6 .main .box .box-1 .contant .location img,
+.section-6 .main .box .box-1 .contant .number img,
+.section-6 .main .box .box-1 .contant .email img,
+.section-6 .main .box .box-1 .contant .web img {
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+
+.section-6 .main .box .box-1 .contant .location p,
+.section-6 .main .box .box-1 .contant .number p,
+.section-6 .main .box .box-1 .contant .email p,
+.section-6 .main .box .box-1 .contant .web p {
+    padding-right: 20px;
+    white-space: pre-line;
+}
+
+.section-6 .main .box .box-1 .contant .location h1 {
+    font-size: large;
+    padding-right: 20px;
+}
+
+.section-6 .main .box .box-2 {
+    margin-right: 40px;
+    text-align: center;
+}
+
+.section-6 .main .box .box-2 .title {
+    padding: 20px 0px;
+    font-size: x-large;
+}
+
+.section-6 .main .box .box-2 .contant p {
+    white-space: pre-line;
+}
+
+.section-6 .main .box .box-2 .contant div {
+    padding: 20px 0px;
+}
+
+.section-6 .main .box .box-2 .contant div .data {
+    padding: 10px 30px;
+    margin: 10px 50px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.section-7 {
+    width: 100%;
+    height: 350px;
+    margin: 50px 0px;
+    position: relative;
+}
+
+.section-7::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imges/خارطة\ موقع.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-7::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.section-7 .input-1 {
+    position: absolute;
+    z-index: 2;
+    padding: 10px;
+    margin: 160px 45%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display:flex;
+}
+
+.section-7 .input-1 .input-2{
+    float: right;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.section-7 .input-1 a img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    padding: 5px 10px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+}
+
+footer h1,
+footer p {
+    color: #999;
+    text-align: center;
+}
+
+footer p{
+    padding: 20px 0px;
+    white-space: pre-line;
+}
+
+footer .link {
+    margin: 20px 700px;
+}
+
+footer .link a {
+    display: inline-block;
+    transition: 1s;
+}
